@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kukulcao | Pureza en cada bocado</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="minimal-nav">
+        <div class="logo">KUKULCAO</div>
+        <div class="nav-cta">
+            <a href="ordenar.html">Ordenar</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-minimal">
+            <div class="product-display">
+                <img src="aro-decorativo.png" alt="Aro Decorativo Artesanal" class="decorative-ring-img">
+                <div class="circle-bg"></div>
+                <img src="brownie-1.png" alt="Kukulcao Brownie Hero" class="hero-img">
+            </div>
+
+            <div class="hero-text">
+                <h1 class="fade-in">UNA TENTACIÓN <br><em>SIN REMORDIMIENTO.</em></h1>
+                <p>Hecho con Harina de arroz, cacao orgánico y la dulzura justa de la miel.</p>
+                
+                <div class="hero-benefits">
+                    <div class="benefit-item">
+                        <img src="icono-miel.png" alt="Dulce Natural" class="benefit-icon"> 
+                        <h4>Dulce Natural</h4>
+                        <p>Miel orgánica pura.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="icono-gluten.png" alt="Sin Gluten" class="benefit-icon"> 
+                        <h4>Sin Gluten</h4>
+                        <p>Harina de arroz/avena.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="icono-cacao.png" alt="100% Cacao" class="benefit-icon"> 
+                        <h4>100% Cacao</h4>
+                        <p>Sabor intenso real.</p>
+                    </div>
+                </div>
+
+                <a href="ordenar.html" class="btn-pedir-ahora">PEDIR AHORA</a>
+            </div>
+        </section>
+
+        <section class="philosophy">
+            <div class="philo-content">
+                <span class="tag">0% Azúcares Refinados</span>
+                <h2>Tu cuerpo merece ingredientes honestos.</h2>
+                <p>Kukulcao nace de la necesidad de un postre que no comprometa tu salud.</p>
+            </div>
+        </section>
+
+        <section class="philosophy-section">
+            <div class="info-container">
+                <h2 class="main-title">Conoce Kukulcao</h2>
+                <div class="info-grid">
+                    <div class="info-card nutrition-card">
+                        <h3>Equilibrio entre nutrición y sabor</h3>
+                        <p>Kukulcao es una alternativa consciente para crear un brownie de textura densa.</p>
+                    </div>
+                    <div class="info-card ingredients-card">
+                        <h3>Base Natural</h3>
+                        <ul class="ingredient-list">
+                            <li><strong>Harina de Arroz:</strong> Energía duradera.</li>
+                            <li><strong>Cacao Puro:</strong> Antioxidantes reales.</li>
+                            <li><strong>Aceite de Coco:</strong> Grasas saludables.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-viewer">
+            <div id="kukulcaoCarousel" class="carousel slide" data-ride="carousel">
+                <div class="main-window">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="brownie-1.png" alt="Brownie 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="brownie-2.png" alt="Brownie 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="brownie-3.png" alt="Brownie 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="brownie-4.png" alt="Brownie 4">
+                        </div>
+                    </div>
+                    
+                    <a class="carousel-control-prev" href="#kukulcaoCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#kukulcaoCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <ol class="carousel-indicators thumb-indicators">
+                    <li data-target="#kukulcaoCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#kukulcaoCarousel" data-slide-to="1"></li>
+                    <li data-target="#kukulcaoCarousel" data-slide-to="2"></li>
+                    <li data-target="#kukulcaoCarousel" data-slide-to="3"></li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer class="minimal-footer">
+        <p>Hecho con amor en Cadereyta, México.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
