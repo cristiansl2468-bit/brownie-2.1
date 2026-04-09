@@ -78,7 +78,7 @@ body {
     pointer-events: none;
     
     /* 1. SUBIR LA IMAGEN: Ajusta este valor si la quieres más arriba o abajo */
-    margin-top: -20px; 
+    margin-top: -10px; 
     
     /* 2. QUITAR OPACIDAD: La dejamos al 100% */
     opacity: 1 !important; 
