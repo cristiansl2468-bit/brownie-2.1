@@ -69,14 +69,6 @@ body {
     height: 600px;
 }
 
-.circle-bg {
-    grid-area: 1 / 1;
-    width: 380px;
-    height: 380px;
-    background: #EFEBE3;
-    border-radius: 50%;
-    z-index: 1;
-}
 
 .decorative-ring-img {
     grid-area: 1 / 1;
