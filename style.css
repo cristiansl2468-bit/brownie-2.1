@@ -76,10 +76,15 @@ body {
     height: auto;
     z-index: 2;
     pointer-events: none;
-    transform: rotate(0deg); 
-    animation: fadeOutScroll linear both;
-    animation-timeline: scroll(block nearest);
-    animation-range: start 100% end 20%; 
+    
+    /* 1. SUBIR LA IMAGEN: Ajusta este valor si la quieres más arriba o abajo */
+    margin-top: -40px; 
+    
+    /* 2. QUITAR OPACIDAD: La dejamos al 100% */
+    opacity: 1 !important; 
+    
+    /* Mantenemos solo la rotación si la deseas, o puedes quitar la animación si prefieres que esté quieta */
+    transform: rotate(0deg);
 }
 
 .hero-img {
